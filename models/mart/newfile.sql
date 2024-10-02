@@ -1,4 +1,4 @@
 {{config(materialized='table')}}
-selec 
+select 
 * from 
-{{ref('tableb2')}}
+{{ref('createtbaletwo')}}
